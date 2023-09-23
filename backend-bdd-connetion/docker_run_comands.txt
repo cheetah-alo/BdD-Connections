@@ -1,0 +1,12 @@
+
+# docker command to run a container on mysql 
+docker run --name curso-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=YOUR-PASSWORD -d mysql:8.0.28
+
+# docker command to run a container on postgres
+docker run --name curso-pg-14 -e POSTGRES_PASSWORD=YOUR-PASSWORD –p 5437:5432 -d postgres:13
+
+# docker command to run a container on my sql serve
+docker run --name mssqlserv-w2w3 -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=YOUR-PASSWORD" -p 1433:1433 -d mcr.microsoft.com/mssql/server:2019-CU15-ubuntu-20.04
+
+# docker command to run a container on oracle
+docker run -d --name orcl1 -e ORACLE_PWD=YOUR-PASSWORD -p 1521:1521 container-registry.oracle.com/database/express:21.3.0-xe

@@ -1,0 +1,7 @@
+http://localhost:3001/search-customers
+
+###
+http://localhost:3001/table/categories
+
+###
+http://localhost:3001/check-database-connection

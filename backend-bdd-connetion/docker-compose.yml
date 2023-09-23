@@ -1,0 +1,53 @@
+version: "3.8"
+
+services:
+  # MySQL service
+  mysql:
+    image: mysql:8.0.28
+    container_name: curso-mysql-w2w3
+    environment:
+      MYSQL_ROOT_PASSWORD: s3cr3t
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql-data-nw:/var/lib/mysql
+
+  # PostgreSQL service
+  postgres:
+    image: postgres:13
+    container_name: curso-postgres-13-w2w3
+    environment:
+      POSTGRES_PASSWORD: s3cr3t
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data-nw:/var/lib/postgresql/data
+
+  # SQL Server service
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2019-CU15-ubuntu-20.04
+    container_name: curso-mmsqlserver-13-w2w3
+    environment:
+      SA_PASSWORD: "my-s3cr3t"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver-data-nw:/var/opt/mssql
+
+  # Oracle service
+  #oracle:
+  # image: oracle/instantclient:89.207.132.170.0
+  # container_name: curso-oracle-13-w2w3
+  #environment:
+  #ORACLE_BASE: /opt/oracle
+  # ORACLE_HOME: /opt/oracle/instantclient_19_8
+  #ORACLE_PWD: s3cr3t
+  #ports:
+  #- "1521:1521"
+
+volumes:
+  mysql-data-nw:
+  postgres-data-nw:
+  sqlserver-data-nw:
+  # oracle-data-nw:
