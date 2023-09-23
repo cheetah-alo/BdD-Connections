@@ -1,12 +1,22 @@
 # Databases Connection
 
-<div align="center">
+<div id="header" align="center">
+  <figure><img src="https://github.com/cheetah-alo/FaucetAppEthereum/assets/51385472/45416c68-5512-4d6e-98d7-6f5e0db36ffe" alt="" width="100"><figcaption></figcaption></figure>
+</div>
 
-<figure><img src="https://github.com/cheetah-alo/FaucetAppEthereum/assets/51385472/45416c68-5512-4d6e-98d7-6f5e0db36ffe" alt="" width="100"><figcaption></figcaption></figure>
+<div id="badges" align="center">
+  <a href="https://medium.com/@techieesp">
+    <img src="https://img.shields.io/badge/Medium-black?style=for-the-badge&logo=medium&logoColor=white" alt="Medium Badge"/>
+  </a>
+  <a href="https://www.linkedin.com/in/jackybarraza/">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+  <a href="https://twitter.com/TechieESP_">
+    <img src="https://img.shields.io/badge/twitter-black?style=for-the-badge&logo=X&logoColor=white" alt="twitter Badge"/>
+  </a>
 
 </div>
 
-[![Medium Badge](https://img.shields.io/badge/Medium-black?style=for-the-badge\&logo=medium\&logoColor=white) ](https://medium.com/@techieesp)[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge\&logo=linkedin\&logoColor=white) ](https://www.linkedin.com/in/jackybarraza/)[![twitter Badge](https://img.shields.io/badge/twitter-black?style=for-the-badge\&logo=X\&logoColor=white)](https://twitter.com/TechieESP\_)
 
 ## Overview
 
