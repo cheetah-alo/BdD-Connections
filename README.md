@@ -1,4 +1,4 @@
-# Databases Connection
+# 🐾 Databases Connection
 
 <div align="center">
 
@@ -14,7 +14,7 @@ This project is a part of the curriculum for the "**FromWeb2toWeb3 Blockchain En
 
 This repository provides instructions on how to connect to different databases using **Docker** and **DBeaver**. It includes a docker compose setup to connect to various databases or individual commands for each database.&#x20;
 
-### Objectives
+## Objectives
 
 1. Install different databases in docker:
    * MySQL
@@ -27,7 +27,7 @@ This repository provides instructions on how to connect to different databases u
 
 ***
 
-### Steps to create the Nortwind database on mySQL&#x20;
+## Steps to create the Nortwind database on mySQL&#x20;
 
 This steps is a standard guide to create the database using docker and connecting it with DBeaver.&#x20;
 
@@ -118,14 +118,14 @@ You can now access and interact with the connected databases within your applica
 
 This lines below provides instructions and information about the code provided for creating a server that interacts with a **MySQL** database using the `mysql8` library.&#x20;
 
-### Prerequisites
+#### Prerequisites
 
 Before you proceed, make sure you have the following installed:
 
 * [Node.js](https://nodejs.org/): Ensure you have **Node.js** installed on your machine.
 * [MySQL](https://www.mysql.com/): You should have **MySQL** installed and running. In this example, we are connecting to a MySQL database named '**northwind**' on the 'localhost' server. Make sure you have the appropriate credentials (user and password) for your MySQL database.
 
-### Getting Started
+#### Getting Started
 
 1. Clone or download the code repository to your local machine, or create your own code.
 2.  Install the necessary **Node.js** package (`mysql8`) by running the following command in the terminal:\
@@ -152,7 +152,7 @@ Before you proceed, make sure you have the following installed:
       });
     ```
 
-### Running the Code
+#### Running the Code
 
 To run the code and establish a connection to your **MySQL** server, execute the following command in your terminal:
 
@@ -170,14 +170,14 @@ This will execute the code and display the results of the **SQL** query in the c
 
 This line below provides instructions and information about the React application code provided for connecting to a `MySQL` database using Axios to make `HTTP` requests. You always can create your own.&#x20;
 
-### Prerequisites
+#### Prerequisites
 
 Before you proceed, make sure you have the following prerequisites:
 
 * [Node.js](https://nodejs.org/): Ensure you have `Node.js` installed on your machine.
 * Running the code on the file `appbddmysql.js`
 
-### Getting Started
+#### Getting Started
 
 1. Clone or download the code repository to your local machine.
 2. Navigate to the project directory in your terminal.
@@ -197,6 +197,10 @@ Before you proceed, make sure you have the following prerequisites:
     npm start
     ```
 8. Access the React application in your web browser by navigating to `http://localhost:3000` (or the URL where your React app is hosted).
+
+
+
+***
 
 ### Using the Application
 
